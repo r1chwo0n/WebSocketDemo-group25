@@ -11,7 +11,4 @@ public class UserCountService {
     public int decrementCount() {
         return count.decrementAndGet();
     }
-    public int getCount() {
-        return count.get();
-    }
 }
